@@ -1,7 +1,6 @@
 package com.greatlearning.question1.driver;
 
 import java.util.LinkedList;
-import java.util.Queue;
 import java.util.Scanner;
 
 import com.greatlearning.question1.service.ConstructionPlan;
@@ -27,6 +26,8 @@ public class Main {
 		
 		ConstructionPlan plan = new ConstructionPlan();
 		plan.implementConstructionPlan(list);
+		
+		sc.close();
 
 	}
 
